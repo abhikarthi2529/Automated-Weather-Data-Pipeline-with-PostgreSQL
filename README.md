@@ -8,6 +8,18 @@
 # Explaning the contents of the hourly_data_etl_pipline folder
 - This folder has 4 files, extract.py, transform.py, load.py, flows.py
 
+When I extracted the raw data, the data looked like this: 
+
+| date                      | temperature_2m |
+|---------------------------|----------------|
+| 2020-01-01 00:00:00+00:00 | -28.486500     |
+
+As you can see, the date and time are combined into a single column, and the time is in UTC format.
+
+
+
+  
+
 
   
 
