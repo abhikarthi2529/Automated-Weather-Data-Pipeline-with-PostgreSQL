@@ -28,6 +28,8 @@ The flows.py file is used to automate this workflow. It will execute this pipeli
 # Below is the workflow diagram
 ![Workflow Diagram](https://github.com/abhikarthi2529/Automated-Weather-Data-Pipeline-with-PostgreSQL/blob/main/Workflow%20Diagram%20.png?raw=true)
 
+The historical_data_elt_pipeline follows the same workflow, however, it is not automated. It simply extracts 5 years worth of data from 2020 to 2025 and load in into db.
+
 
 
   
