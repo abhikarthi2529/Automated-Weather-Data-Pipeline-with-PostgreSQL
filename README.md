@@ -26,7 +26,7 @@ The flows.py file is used to automate this workflow. It will execute this pipeli
 
 
 # Below is the workflow diagram and an image from the Prefect GUI displaying how the pipeline is scheduled to be executed every midnight.
-![Workflow Diagram](Workflow Diagram .png)
+![Workflow Diagram](https://github.com/abhikarthi2529/Automated-Weather-Data-Pipeline-with-PostgreSQL/blob/main/Workflow%20Diagram%20.png?raw=true)
 
 
 
