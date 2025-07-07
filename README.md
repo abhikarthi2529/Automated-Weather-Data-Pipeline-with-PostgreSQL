@@ -25,7 +25,7 @@ Now the load file simply loads these rows into the PostgreSQL database. Note: Ev
 The flows.py file is used to automate this workflow. It will execute this pipeline every midnight, loading new data from two days before midnight (the start date) to one day before midnight (the end date). The reason I did not set the start date to one day before midnight and the end date to midnight is because the API will not have the weather data for the hours between those dates.
 
 
-# Below is the workflow diagram and an image from the Prefect GUI displaying how the pipeline is scheduled to be executed every midnight.
+# Below is the workflow diagram
 ![Workflow Diagram](https://github.com/abhikarthi2529/Automated-Weather-Data-Pipeline-with-PostgreSQL/blob/main/Workflow%20Diagram%20.png?raw=true)
 
 
