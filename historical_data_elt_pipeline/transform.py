@@ -37,9 +37,6 @@ class Transform:
     
 
 
-e = Transform()
-data = Transform().transform_raw_data()
-print(data)
 
 
 
