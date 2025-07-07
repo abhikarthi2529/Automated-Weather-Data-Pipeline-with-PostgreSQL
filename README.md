@@ -7,7 +7,8 @@
 
 # Explaning the contents of the hourly_data_etl_pipline folder
 - This folder has 4 files
-    hourly_data_etl_pipeline/
+
+  hourly_data_etl_pipeline/
   ├── extract.py
   ├── transform.py
   ├── load.py
