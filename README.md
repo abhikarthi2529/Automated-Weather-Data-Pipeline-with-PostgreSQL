@@ -14,7 +14,14 @@ When I extracted the raw data, the data looked like this:
 |---------------------------|----------------|
 | 2020-01-01 00:00:00+00:00 | -28.486500     |
 
-As you can see, the date and time are combined into a single column, and the time is in UTC format.
+As you can see, the date and time are combined into a single column, and the time is in UTC format. The transform.py file converts this column into two separate columns called time and year, with the timezone converted to Pacific Time. The temperature_2m column is keept the same. 
+
+| temperature_2m |   time   |   year    |
+|----------------|----------|-----------|
+|     26.1135    | 04:59AM  | 2025-07-03 |
+
+
+
 
 
 
