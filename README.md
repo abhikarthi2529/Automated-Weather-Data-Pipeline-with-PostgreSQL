@@ -20,6 +20,12 @@ As you can see, the date and time are combined into a single column, and the tim
 |----------------|----------|-----------|
 |     26.1135    | 04:59AM  | 2025-07-03 |
 
+Now the load file simply loads these rows into the PostgreSQL database. Note: Every time the load function is executed by Prefect, many rows are being loaded into the database. 
+
+The flows.py file is used to automate this workflow. It will execute this pipeline every midnight, loading new data from two days before midnight (the start date) to one day before midnight (the end date). The reason I did not set the start date to one day before midnight and the end date to midnight is because the API will not have the weather data for the hours between those dates.
+
+
+
 
 
 
