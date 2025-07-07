@@ -26,7 +26,7 @@ The flows.py file is used to automate this workflow. It will execute this pipeli
 
 
 # Below is the workflow diagram and an image from the Prefect GUI displaying how the pipeline is scheduled to be executed every midnight.
-![Workflow Diagram](Workflow Diagram .pdf)
+![Workflow Diagram](Workflow Diagram .png)
 
 
 
