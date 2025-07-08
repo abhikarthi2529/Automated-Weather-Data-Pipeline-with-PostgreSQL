@@ -19,8 +19,7 @@ class Load:
        self.data.to_sql('weather_historical_data', engine, if_exists='replace', index=False)
     
 
-l = Load()
-l.load_data_to_db(l.get_credentials())
+
 
 
 
